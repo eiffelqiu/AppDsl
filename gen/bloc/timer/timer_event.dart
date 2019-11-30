@@ -1,0 +1,4 @@
+enum TimerEvent { 
+	INC,
+	DEC,
+}

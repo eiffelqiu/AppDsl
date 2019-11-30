@@ -1,0 +1,41 @@
+format: dart
+on: main
+on: route
+
+# define counter bloc
+
+bloc Counter {
+	int counter;
+
+	event INC {
+		"+ 1"
+	}
+
+	event DEC {
+		"- 1"
+	}
+}
+
+# define timer bloc
+
+bloc Timer {
+	int counter;
+
+	event INC {
+		"+ 1"
+	}
+
+	event DEC {
+		"- 1"
+	}
+}
+
+# define post service
+
+service post {
+	api: "https://jsonplaceholder.typicode.com/posts"
+	int id;
+	int userId;
+	string title;
+  	string body;
+}
