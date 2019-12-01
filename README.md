@@ -9,8 +9,13 @@ Convert DSL Language to Flutter Code using BLOC pattern
 
 #### DSL code (example.ad)
 ```
+# support 'dart' right now, will support 'swift' and 'java' in the future
 format: dart
+
+# generate main.dart for you
 on: main
+
+# generate router file for you
 on: route
 
 # define counter bloc
