@@ -15,7 +15,7 @@ format: dart
 # generate main.dart for you
 on: main
 
-# generate router file for you
+# generate router file (route_generator.dart) for you
 on: route
 
 # define counter bloc
